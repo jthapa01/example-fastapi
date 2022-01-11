@@ -1,8 +1,8 @@
 """add last few columns to posts table
 
-Revision ID: 705287e29268
-Revises: 6232cf9c1127
-Create Date: 2022-01-09 20:41:44.506828
+Revision ID: 0c3456e7d7fc
+Revises: 669263a6d606
+Create Date: 2022-01-11 10:27:01.052095
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '705287e29268'
-down_revision = '6232cf9c1127'
+revision = '0c3456e7d7fc'
+down_revision = '669263a6d606'
 branch_labels = None
 depends_on = None
 
