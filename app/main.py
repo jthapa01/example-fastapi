@@ -17,13 +17,14 @@ app.add_middleware(
 )
 
 app.include_router(post.router)
-app.include_router(user.router) #grab router obj from user file 
+app.include_router(user.router)  # grab router obj from user file
 app.include_router(auth.router)
 app.include_router(vote.router)
 
+
 @app.get("/")  # decorator
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello World!!!"}
 
 
 # pydantic model, defining schema for post or update
@@ -41,5 +42,3 @@ async def root():
 #     for i, p in enumerate(my_posts):
 #         if p['id'] == id:
 #             return i
-
-
