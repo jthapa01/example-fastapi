@@ -24,7 +24,7 @@ app.include_router(vote.router)
 
 @app.get("/")  # decorator
 async def root():
-    return {"message": "Hello World!!!"}
+    return {"message": "Hello World!"}
 
 
 # pydantic model, defining schema for post or update
